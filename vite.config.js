@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react';
 // If you name the repository something else, change the path to /YOUR-REPOSITORY-NAME/.
 export default defineConfig({
   plugins: [react()],
-  base: process.env.GITHUB_ACTIONS ? '/coral-prototype/' : '/',
+  base: process.env.GITHUB_ACTIONS ? '/coralprototype/' : '/',
 });
